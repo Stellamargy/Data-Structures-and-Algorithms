@@ -1,9 +1,3 @@
-const palindromeString = (str)=>{
-    const reversedString=str.split('').reverse().join('');
-    const isPalindromeString = reversedString === str ? true:false;
-    return isPalindromeString;
-    
-
-}
+const palindromeString = (str)=>str.split('').reverse().join('')===str ;
 //test
-// console.log(palindromeString("Stella"))
+console.log(palindromeString("Stella"))
